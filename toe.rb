@@ -38,6 +38,7 @@ class Tic
 end
 
 class Board
+  attr_accessor :board
 
   def initialize()
     @board = [["", "", ""],["", "", ""],["", "", ""]]
